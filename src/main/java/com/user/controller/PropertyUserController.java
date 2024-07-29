@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping("/api/v1/PropertyUserService")
+// Rest Controller
 @RestController
 public class PropertyUserController {//REST API class
     private PropertyUserService pu;
